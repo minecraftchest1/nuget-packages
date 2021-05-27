@@ -25,7 +25,7 @@ namespace Minecraftchest1
             /// </param>
             /// <returns>
             /// Returns the input from the user.
-            /// </returns
+            /// </returns>
 
             Console.Write(prompt);
             string input = Console.ReadLine();

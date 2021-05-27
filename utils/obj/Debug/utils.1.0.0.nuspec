@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>utils</id>
+    <version>1.0.0</version>
+    <authors>Minecraftchest1</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">README.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>A small collection of simple methods that I have wrote.</description>
+    <copyright>2021 Minecraftchest1</copyright>
+    <repository type="Git" url="https://gitlab.com/minecraftchest1/nuget-packages" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Wyatt\source\repos\nuget-packages\utils\bin\Debug\net5.0\utils.dll" target="lib\net5.0\utils.dll" />
+    <file src="C:\Users\Wyatt\source\repos\nuget-packages\README.md" target="README.md" />
+  </files>
+</package>
