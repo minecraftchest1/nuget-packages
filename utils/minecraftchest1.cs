@@ -2,7 +2,7 @@ using System;
 
 namespace Minecraftchest1
 {
-    class Utils
+    partial class Utils
     {
 
         public static void Pause()
@@ -84,17 +84,4 @@ namespace Minecraftchest1
             return inputD;
         }
 	}
-
-    [System.Serializable]
-    public class InputErrorException  : Exception
-    {
-        public InputErrorException() { }
-        public InputErrorException(string message) : base(message) { }
-        public InputErrorException(string message, Exception inner) : base(message, inner) { }
-        protected InputErrorException(
-          System.Runtime.Serialization.SerializationInfo info,
-          System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
-
-        public string Input;
-    }
 }
