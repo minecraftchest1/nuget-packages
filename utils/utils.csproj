@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A small collection of simple methods that I have wrote.</Description>
+    <Copyright>2021 Minecraftchest1</Copyright>
+    <Authors>Minecraftchest1</Authors>
+    <Company>FamilyOfJacksons</Company>
+    <Product>Minecraftchest1-Utils</Product>
+    <RepositoryType>Git</RepositoryType>
+    <RepositoryUrl>https://gitlab.com/minecraftchest1/nuget-packages</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
