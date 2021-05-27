@@ -7,6 +7,6 @@ pages:
   #- mv doxygen/documentation/html/ public/
   artifacts:
     paths:
-    - public
+    - html
   only:
   - master
