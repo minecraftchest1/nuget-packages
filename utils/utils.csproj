@@ -11,6 +11,9 @@
     <RepositoryType>Git</RepositoryType>
     <RepositoryUrl>https://gitlab.com/minecraftchest1/nuget-packages</RepositoryUrl>
     <PackageLicenseFile>README.md</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0.1</Version>
+    <PackageId>Minecraftchest1-utils</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

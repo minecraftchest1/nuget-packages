@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\utils.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\utils.csproj",
-        "projectName": "utils",
+        "projectName": "Minecraftchest1-utils",
         "projectPath": "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\utils.csproj",
         "packagesPath": "C:\\Users\\Wyatt\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\obj\\",
