@@ -4,19 +4,49 @@ namespace Minecraftchest1
 {
     class Utils
     {
+
         public static void Pause()
         {
+            /// <summary>
+            /// Waits for user.
+            /// </summary>
+
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
         public static string Input(string prompt)
         {
+            /// <summary>
+            /// Asks for user input.
+            /// </summary>
+            /// <param name="prompt">
+            /// The message to show when asking for input.
+            /// Dispalyed on the same line of the input prompt.
+            /// </param>
+            /// <returns>
+            /// Returns the input from the user.
+            /// </returns
+
             Console.Write(prompt);
             string input = Console.ReadLine();
             return input;
         }
         public static double InputDouble(string prompt)
         {
+            /// <summary>
+            /// Asks for user input. Returns a double.
+            /// </summary>
+            /// <remarks>
+            /// Returns 0 when no user input is provided.
+            /// </remarks>
+            /// <param name="prompt">
+            /// The message to show when asking for input.
+            /// Dispalyed on the same line of the input prompt.
+            /// </param>
+            /// <returns>
+            /// Returns the input from the user.
+            /// </returns>
+
             //Console.WriteLine("[DEBUG] Inside InputDouble");
             double inputD = 0;
             string inputS;
