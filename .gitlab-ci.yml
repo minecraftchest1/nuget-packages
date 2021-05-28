@@ -1,6 +1,8 @@
 image: alpine
 
 pages:
+  tags: 
+    - Self-hosted
   script:
   - apk update && apk add doxygen
   - doxygen doxygen/Doxyfile
