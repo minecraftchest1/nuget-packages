@@ -75,7 +75,7 @@ namespace Minecraftchest1
                     throw ex;
                 }
             }
-            catch(Exception e) 
+            catch(Exception) 
             {
                 //Console.WriteLine("[DEBUG] Inside second catch");
                 throw;
