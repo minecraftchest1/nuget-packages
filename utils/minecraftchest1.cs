@@ -2,7 +2,7 @@ using System;
 
 namespace Minecraftchest1
 {
-    partial class Utils
+    public partial class Utils
     {
 
         public static void Pause()
