@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md_utils__r_e_a_d_m_e" xml:lang="en-US">
+
+<para>All methods are located under the <computeroutput>Utils</computeroutput> class in the <computeroutput><link linkend="_namespace_minecraftchest1">Minecraftchest1</link></computeroutput> namespace.</para>
+
+<para>Documentation is automaticly generated,and can be found at <link xlink:href="https://minecraftchest1.github.io/nuget-packages/class_minecraftchest1_1_1_utils.html">https://minecraftchest1.github.io/nuget-packages/class_minecraftchest1_1_1_utils.html</link> </para>
+</section>
