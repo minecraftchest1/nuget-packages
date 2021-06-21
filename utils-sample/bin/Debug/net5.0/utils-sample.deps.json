@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "utils-sample/1.0.0": {
+        "dependencies": {
+          "Minecraftchest1-utils": "1.0.2"
+        },
+        "runtime": {
+          "utils-sample.dll": {}
+        }
+      },
+      "Minecraftchest1-utils/1.0.2": {
+        "runtime": {
+          "lib/net5.0/utils.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "utils-sample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Minecraftchest1-utils/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yqbId8p+pcaPJJrVV4gyUQ0M3BNjp0Kx0jAzXgz8zjtWfhDiRHxoAQvyNUUDRV1JqpIax+p9o/6bPHJ0OmMFOQ==",
+      "path": "minecraftchest1-utils/1.0.2",
+      "hashPath": "minecraftchest1-utils.1.0.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WbPbNW0UVcOcuCJdjmh2yZ1abBRT6z7FMn6vmLRtAdgTT5DSAHPo6rXTh8VibRRWk3FEkt0yLUYfyz+0a5zljA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils-sample\\utils-sample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wyatt\\.nuget\\packages\\minecraftchest1-utils\\1.0.2\\minecraftchest1-utils.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
