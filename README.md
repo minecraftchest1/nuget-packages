@@ -23,4 +23,5 @@ Documentation at https://minecraftchest1.github.io/nuget-packages/
 # Changelog
 
 ## 1.2.1 
+
 * Change to using Major.Minor.Patch[-Suffix] versioning system.
