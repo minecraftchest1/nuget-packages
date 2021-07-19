@@ -14,6 +14,7 @@ if ( Test-Path utils)
 else
 {
 	echo "The 'Doxyfile' file does not exist."
+}
 if ( Test-Path html\)
 {
 	if ( Test-Path docs )

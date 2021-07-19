@@ -26,7 +26,8 @@
         "net5.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "htts://gitlab.com/api/v4/projects/26972200/packages/nuget/index.json": {}
       },
       "frameworks": {
         "net5.0": {

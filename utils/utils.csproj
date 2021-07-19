@@ -10,7 +10,8 @@
     <Product>Minecraftchest1-Utils</Product>
     <RepositoryType>Git</RepositoryType>
     <RepositoryUrl>https://gitlab.com/minecraftchest1/nuget-packages</RepositoryUrl>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <!--<PackageLicenseFile>LICENSE</PackageLicenseFile>-->
+    <!--<license type="expression">GPL-3.0-or-later</license>-->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.2.0</Version>
     <PackageId>Minecraftchest1-utils</PackageId>

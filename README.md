@@ -19,3 +19,7 @@ Documentation at https://minecraftchest1.github.io/nuget-packages/
 
 * https://github.com/minecraftchest1/nuget-packages
 * https://gitlab.com/minecraftchest1/nuget-packages
+
+# Changelog
+
+* 1.2.1 - Change to using Major.Minor.Patch[-Suffix] versioning system.
