@@ -21,6 +21,9 @@ Documentation at https://minecraftchest1.github.io/nuget-packages/
 * https://gitlab.com/minecraftchest1/nuget-packages
 
 # Changelog
+## 1.2.2
+
+* Add `ArrayToString` function.
 
 ## 1.2.1 
 
