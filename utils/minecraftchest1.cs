@@ -83,10 +83,23 @@ namespace Minecraftchest1
             //Console.WriteLine("[DEBUG] Returing from InputDouble");
             return inputD;
         }
-		static string[] StringToArray(string Input, char[] Seperators)
+        static string[] StringToArray(string Input, char[] Seperators)
         {
             string[] Out = Input.Split(Seperators);
             return Out;       
         }
-	}
+        static string ArrayToString(string[] Input, char Seperator)
+        {
+            string _output = null;
+            foreach (var _item in Input)
+            {
+                string _a;
+                _a = _item;
+                
+                _output = _item+Seperator;
+            }
+
+            return _output;
+        }
+    }
 }
