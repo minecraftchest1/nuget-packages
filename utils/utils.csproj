@@ -13,7 +13,7 @@
     <!--<PackageLicenseFile>LICENSE</PackageLicenseFile>-->
     <!--<license type="expression">GPL-3.0-or-later</license>-->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2.0</Version>
+    <Version>1.2.3</Version>
     <PackageId>Minecraftchest1-utils</PackageId>
   </PropertyGroup>
 
