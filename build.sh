@@ -1,4 +1,4 @@
 #!/bin/bash
-dotnet build .\utils\
+dotnet build ./utils
 doxygen Doxyfile
-cp .\html\ docs
+cp ./Doxygen/html/ ./docs -r
