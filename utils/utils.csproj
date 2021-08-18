@@ -11,17 +11,22 @@
     <RepositoryType>Git</RepositoryType>
     <RepositoryUrl>https://gitlab.com/minecraftchest1/nuget-packages</RepositoryUrl>
     <!--<PackageLicenseFile>LICENSE</PackageLicenseFile>-->
-    <!--<license type="expression">GPL-3.0-or-later</license>-->
+	<!--<license type="expression">GPL-3.0-or-later</license>-->
+	<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.2.3</Version>
-    <PackageId>Minecraftchest1-utils</PackageId>
+	<PackageId>Minecraftchest1.utils</PackageId>
+	<Title>Minecraftchest1.utils</Title>
+	<PackageProjectUrl>https://gitlab.com/minecraftchest1/nuget-packages</PackageProjectUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>https://gitlab.com/minecraftchest1/nuget-packages</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\README.md">
+	  <None Include="../README.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
+</ItemGroup>
 </Project>

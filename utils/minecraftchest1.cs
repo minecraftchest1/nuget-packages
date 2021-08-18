@@ -5,13 +5,29 @@ namespace Minecraftchest1
     public partial class Utils
     {
 
-        public static void Pause()
+        public static void Pause(string Message = "Press any key to continue..." ,bool Seperator = false)
         {
             /// <summary>
             /// Waits for user.
             /// </summary>
+			/// <param name="message">
+			/// Optional message to print instead
+			/// of "Press any key to continue...".
+			/// </param>
+			/// <param name="Seperator">
+			/// Wether to print a seperator before
+			/// pause message.
+			/// </param>
 
-            Console.WriteLine("Press any key to continue...");
+			string _seperator = "-----------------------";
+
+			if (Seperator == true)
+			{
+				Console.WriteLine(_seperator);
+			}
+
+            //Console.WriteLine("Press any key to continue...");
+			Console.WriteLine(Message);
             Console.ReadKey();
         }
         public static string Input(string prompt)

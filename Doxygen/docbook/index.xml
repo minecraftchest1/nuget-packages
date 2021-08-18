@@ -1,16 +1,24 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
     <info>
     <title>Minecraftchest1</title>
     </info>
-<chapter>
-    <title>Namespace Documentation</title>
-<xi:include href="namespace_minecraftchest1.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-</chapter>
-<chapter>
-    <title>Class Documentation</title>
-    <xi:include href="class_minecraftchest1_1_1_utils_1_1_input_error_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="class_minecraftchest1_1_1_utils.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-</chapter>
-<index/>
+    <chapter>
+        <title>Namespace Documentation</title>
+        <xi:include href="namespace_minecraftchest1.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespace_system.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+        <xi:include href="autotoc_md0.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <chapter>
+        <title>Class Documentation</title>
+        <xi:include href="class_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="class_minecraftchest1_1_1_utils_1_1_input_error_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="class_minecraftchest1_1_1_utils.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>File Documentation</title>
+        <xi:include href="_exceptions_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="minecraftchest1_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_r_e_a_d_m_e_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
 </book>

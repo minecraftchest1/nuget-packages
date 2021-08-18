@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\utils.csproj": {}
+    "/home/wyatt/src/nuget-packages/utils/utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\utils.csproj": {
-      "version": "1.0.2",
+    "/home/wyatt/src/nuget-packages/utils/utils.csproj": {
+      "version": "1.2.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\utils.csproj",
-        "projectName": "Minecraftchest1-utils",
-        "projectPath": "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\utils.csproj",
-        "packagesPath": "C:\\Users\\Wyatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wyatt\\source\\repos\\nuget-packages\\utils\\obj\\",
+        "projectUniqueName": "/home/wyatt/src/nuget-packages/utils/utils.csproj",
+        "projectName": "Minecraftchest1.utils",
+        "projectPath": "/home/wyatt/src/nuget-packages/utils/utils.csproj",
+        "packagesPath": "/home/wyatt/.nuget/packages/",
+        "outputPath": "/home/wyatt/src/nuget-packages/utils/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wyatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/wyatt/src/nuget-packages/utils/nuget.config",
+          "/home/wyatt/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
-          "htts://gitlab.com/api/v4/projects/26972200/packages/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -48,12 +49,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/dotnet-sdk-6.0.100-preview.4.21255.9/sdk/6.0.100-preview.4.21255.9/RuntimeIdentifierGraph.json"
         }
       }
     }
