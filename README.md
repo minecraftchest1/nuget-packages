@@ -35,7 +35,7 @@ The automatically generated documentation in html format is placed in the html f
 
 # Changelog
 
-## 1.3.0
+## 1.2.3
 
 * Add option to customize `pasue()` behavior.
 * Fix build.sh script.
