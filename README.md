@@ -35,6 +35,11 @@ The automatically generated documentation in html format is placed in the html f
 
 # Changelog
 
+## 1.2.4
+ * Add `Exit()` funtion.
+ * Add `InputByte()` function.
+ * Add `Menu()` function
+
 ## 1.2.3
 
 * Add option to customize `pasue()` behavior.
