@@ -89,8 +89,45 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a0f88327089e8a17005bc3c7981487c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd4c72e46dc83dc796229b1bfa187d80"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minecraftchest1_1_1_utils.html#abd4c72e46dc83dc796229b1bfa187d80">InputByte</a> (string prompt)</td></tr>
 <tr class="separator:abd4c72e46dc83dc796229b1bfa187d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea88face18276bc3c7e70a212f63b4a"><td class="memItemLeft" align="right" valign="top"><a id="a4ea88face18276bc3c7e70a212f63b4a"></a>
+static string[]&#160;</td><td class="memItemRight" valign="bottom"><b>StringToArray</b> (string <a class="el" href="class_minecraftchest1_1_1_utils.html#acc8f15ceee7fa0c1c521cdb582bc3910">Input</a>, char[] Seperators)</td></tr>
+<tr class="separator:a4ea88face18276bc3c7e70a212f63b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4fd4490e43598e7c07908dcc814458"><td class="memItemLeft" align="right" valign="top"><a id="adc4fd4490e43598e7c07908dcc814458"></a>
+static string&#160;</td><td class="memItemRight" valign="bottom"><b>ArrayToString</b> (string[] <a class="el" href="class_minecraftchest1_1_1_utils.html#acc8f15ceee7fa0c1c521cdb582bc3910">Input</a>, char Seperator)</td></tr>
+<tr class="separator:adc4fd4490e43598e7c07908dcc814458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009121f4c8753027691de96462294d92"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minecraftchest1_1_1_utils.html#a009121f4c8753027691de96462294d92">Exit</a> (Int32 exitCode=0)</td></tr>
+<tr class="separator:a009121f4c8753027691de96462294d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a035e281ebdbe7cc5fc010c187beb85cf"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_minecraftchest1_1_1_utils.html#a035e281ebdbe7cc5fc010c187beb85cf">Menu</a> (Dictionary&lt; byte, string &gt; menu)</td></tr>
+<tr class="separator:a035e281ebdbe7cc5fc010c187beb85cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a009121f4c8753027691de96462294d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a009121f4c8753027691de96462294d92">&#9670;&nbsp;</a></span>Exit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Minecraftchest1.Utils.Exit </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>exitCode</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Exits the application. /summary&gt; param name="exitCode"&gt; Error code to provide when exiting. Defaults to 0 (successful). /param&gt;</p>
+
+</div>
+</div>
 <a id="acc8f15ceee7fa0c1c521cdb582bc3910"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc8f15ceee7fa0c1c521cdb582bc3910">&#9670;&nbsp;</a></span>Input()</h2>
 
@@ -192,6 +229,40 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns the input from the user. </dd></dl>
+
+</div>
+</div>
+<a id="a035e281ebdbe7cc5fc010c187beb85cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a035e281ebdbe7cc5fc010c187beb85cf">&#9670;&nbsp;</a></span>Menu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static byte Minecraftchest1.Utils.Menu </td>
+          <td>(</td>
+          <td class="paramtype">Dictionary&lt; byte, string &gt;&#160;</td>
+          <td class="paramname"><em>menu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates text menu from provided dictionary. /summary&gt; param name="menu"&gt; Dictionary containing menu. Format is &lt;byte,string&gt; where byte is menu entry number, and string represences entry text. /param&gt; example&gt; Example dictionary </p><div class="fragment"><div class="line">var _menu = <span class="keyword">new</span> Dictionary&lt;int, string&gt;()</div>
+<div class="line">{</div>
+<div class="line">       {1, <span class="stringliteral">&quot;Login/Change User&quot;</span>},</div>
+<div class="line">       {2, <span class="stringliteral">&quot;List groups&quot;</span>},</div>
+<div class="line">       {3, <span class="stringliteral">&quot;List Direct Messages&quot;</span>},</div>
+<div class="line">    {0, <span class="stringliteral">&quot;Exit&quot;</span>}</div>
+<div class="line">};</div>
+</div><!-- fragment --><p> /example&gt;</p>
 
 </div>
 </div>

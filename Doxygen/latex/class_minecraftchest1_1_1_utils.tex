@@ -15,11 +15,27 @@ static string \mbox{\hyperlink{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1
 static double \mbox{\hyperlink{class_minecraftchest1_1_1_utils_a0f88327089e8a17005bc3c7981487c32}{Input\+Double}} (string prompt)
 \item 
 static byte \mbox{\hyperlink{class_minecraftchest1_1_1_utils_abd4c72e46dc83dc796229b1bfa187d80}{Input\+Byte}} (string prompt)
+\item 
+\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_a4ea88face18276bc3c7e70a212f63b4a}\label{class_minecraftchest1_1_1_utils_a4ea88face18276bc3c7e70a212f63b4a}} 
+static string\mbox{[}$\,$\mbox{]} {\bfseries String\+To\+Array} (string \mbox{\hyperlink{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}{Input}}, char\mbox{[}$\,$\mbox{]} Seperators)
+\item 
+\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_adc4fd4490e43598e7c07908dcc814458}\label{class_minecraftchest1_1_1_utils_adc4fd4490e43598e7c07908dcc814458}} 
+static string {\bfseries Array\+To\+String} (string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}{Input}}, char Seperator)
+\item 
+static void \mbox{\hyperlink{class_minecraftchest1_1_1_utils_a009121f4c8753027691de96462294d92}{Exit}} (Int32 exit\+Code=0)
+\item 
+static byte \mbox{\hyperlink{class_minecraftchest1_1_1_utils_a035e281ebdbe7cc5fc010c187beb85cf}{Menu}} (Dictionary$<$ byte, string $>$ menu)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Member Function Documentation}
-\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}\label{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}} 
+\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_a009121f4c8753027691de96462294d92}\label{class_minecraftchest1_1_1_utils_a009121f4c8753027691de96462294d92}} 
+\index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!Exit@{Exit}}
+\index{Exit@{Exit}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
+\doxysubsubsection{\texorpdfstring{Exit()}{Exit()}}
+{\footnotesize\ttfamily static void Minecraftchest1.\+Utils.\+Exit (\begin{DoxyParamCaption}\item[{Int32}]{exit\+Code = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Exits the application. /summary$>$ param name=\char`\"{}exit\+Code\char`\"{}$>$ Error code to provide when exiting. Defaults to 0 (successful). /param$>$\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}\label{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}} 
 \index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!Input@{Input}}
 \index{Input@{Input}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
 \doxysubsubsection{\texorpdfstring{Input()}{Input()}}
@@ -71,7 +87,24 @@ Returns 0 when no user input is provided.
 \begin{DoxyReturn}{Returns}
 Returns the input from the user. 
 \end{DoxyReturn}
-\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}\label{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}} 
+\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_a035e281ebdbe7cc5fc010c187beb85cf}\label{class_minecraftchest1_1_1_utils_a035e281ebdbe7cc5fc010c187beb85cf}} 
+\index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!Menu@{Menu}}
+\index{Menu@{Menu}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
+\doxysubsubsection{\texorpdfstring{Menu()}{Menu()}}
+{\footnotesize\ttfamily static byte Minecraftchest1.\+Utils.\+Menu (\begin{DoxyParamCaption}\item[{Dictionary$<$ byte, string $>$}]{menu }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Creates text menu from provided dictionary. /summary$>$ param name=\char`\"{}menu\char`\"{}$>$ Dictionary containing menu. Format is $<$byte,string$>$ where byte is menu entry number, and string represences entry text. /param$>$ example$>$ Example dictionary 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{var \_menu = \textcolor{keyword}{new} Dictionary<int, string>()}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{       \{1, \textcolor{stringliteral}{"{}Login/Change User"{}}\},}
+\DoxyCodeLine{       \{2, \textcolor{stringliteral}{"{}List groups"{}}\},}
+\DoxyCodeLine{       \{3, \textcolor{stringliteral}{"{}List Direct Messages"{}}\},}
+\DoxyCodeLine{    \{0, \textcolor{stringliteral}{"{}Exit"{}}\}}
+\DoxyCodeLine{\};}
+
+\end{DoxyCode}
+ /example$>$\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}\label{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}} 
 \index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!Pause@{Pause}}
 \index{Pause@{Pause}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
 \doxysubsubsection{\texorpdfstring{Pause()}{Pause()}}

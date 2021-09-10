@@ -145,12 +145,12 @@ namespace Minecraftchest1
             }
             return inputD;
         }
-        static string[] StringToArray(string Input, char[] Seperators)
+        public static string[] StringToArray(string Input, char[] Seperators)
         {
             string[] Out = Input.Split(Seperators);
             return Out;       
         }
-        static string ArrayToString(string[] Input, char Seperator)
+        public static string ArrayToString(string[] Input, char Seperator)
         {
             string _output = null;
             foreach (var _item in Input)
@@ -163,7 +163,7 @@ namespace Minecraftchest1
 
             return _output;
         }
-        static void Exit(Int32 exitCode=0)
+        public static void Exit(Int32 exitCode=0)
         {
             ///<summary>
             /// Exits the application.
@@ -175,7 +175,7 @@ namespace Minecraftchest1
             
             Environment.Exit(exitCode);
         }
-        static byte Menu(Dictionary<byte,string> menu)
+        public static byte Menu(Dictionary<byte,string> menu)
         {
             ///<summary>
             /// Creates text menu from provided dictionary.

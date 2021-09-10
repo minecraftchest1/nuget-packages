@@ -28,9 +28,23 @@ Minecraftchest1.Utils
 .ti -1c
 .RI "static byte \fBInputByte\fP (string prompt)"
 .br
+.ti -1c
+.RI "static string[] \fBStringToArray\fP (string \fBInput\fP, char[] Seperators)"
+.br
+.ti -1c
+.RI "static string \fBArrayToString\fP (string[] \fBInput\fP, char Seperator)"
+.br
+.ti -1c
+.RI "static void \fBExit\fP (Int32 exitCode=0)"
+.br
+.ti -1c
+.RI "static byte \fBMenu\fP (Dictionary< byte, string > menu)"
+.br
 .in -1c
 .SH "Member Function Documentation"
 .PP 
+.SS "static void Minecraftchest1\&.Utils\&.Exit (Int32 exitCode = \fC0\fP)\fC [inline]\fP, \fC [static]\fP"
+Exits the application\&. /summary> param name='exitCode'> Error code to provide when exiting\&. Defaults to 0 (successful)\&. /param>
 .SS "static string Minecraftchest1\&.Utils\&.Input (string prompt)\fC [inline]\fP, \fC [static]\fP"
 Asks for user input\&. 
 .PP
@@ -77,6 +91,21 @@ Returns the input from the user\&.
 .RE
 .PP
 
+.SS "static byte Minecraftchest1\&.Utils\&.Menu (Dictionary< byte, string > menu)\fC [inline]\fP, \fC [static]\fP"
+Creates text menu from provided dictionary\&. /summary> param name='menu'> Dictionary containing menu\&. Format is <byte,string> where byte is menu entry number, and string represences entry text\&. /param> example> Example dictionary 
+.PP
+.nf
+var _menu = new Dictionary<int, string>()
+{
+       {1, "Login/Change User"},
+       {2, "List groups"},
+       {3, "List Direct Messages"},
+    {0, "Exit"}
+};
+
+.fi
+.PP
+ /example>
 .SS "static void Minecraftchest1\&.Utils\&.Pause (string Message = \fC'Press any key to continue\&.\&.\&.'\fP, bool Seperator = \fCfalse\fP)\fC [inline]\fP, \fC [static]\fP"
 Waits for user\&. 
 .PP

@@ -10,6 +10,10 @@ C:/Users/Wyatt/source/repos/nuget-packages/utils/obj/Debug/net5.0/utils.csproj.C
 C:/Users/Wyatt/source/repos/nuget-packages/utils/obj/Debug/net5.0/utils.dll
 C:/Users/Wyatt/source/repos/nuget-packages/utils/obj/Debug/net5.0/ref/utils.dll
 C:/Users/Wyatt/source/repos/nuget-packages/utils/obj/Debug/net5.0/utils.pdb
+/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/utils.deps.json
+/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/utils.dll
+/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/ref/utils.dll
+/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/utils.pdb
 /home/wyatt/src/nuget-packages/utils/obj/Debug/net5.0/utils.csproj.AssemblyReference.cache
 /home/wyatt/src/nuget-packages/utils/obj/Debug/net5.0/utils.GeneratedMSBuildEditorConfig.editorconfig
 /home/wyatt/src/nuget-packages/utils/obj/Debug/net5.0/utils.AssemblyInfoInputs.cache
@@ -18,7 +22,3 @@ C:/Users/Wyatt/source/repos/nuget-packages/utils/obj/Debug/net5.0/utils.pdb
 /home/wyatt/src/nuget-packages/utils/obj/Debug/net5.0/utils.dll
 /home/wyatt/src/nuget-packages/utils/obj/Debug/net5.0/ref/utils.dll
 /home/wyatt/src/nuget-packages/utils/obj/Debug/net5.0/utils.pdb
-/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/utils.deps.json
-/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/utils.dll
-/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/ref/utils.dll
-/home/wyatt/src/nuget-packages/utils/bin/Debug/net5.0/utils.pdb
