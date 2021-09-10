@@ -1,26 +1,28 @@
-\hypertarget{class_minecraftchest1_1_1_utils}{}\section{Minecraftchest1.\+Utils Class Reference}
-\label{class_minecraftchest1_1_1_utils}\index{Minecraftchest1.\+Utils@{Minecraftchest1.\+Utils}}
-\subsection*{Classes}
+\hypertarget{class_minecraftchest1_1_1_utils}{}\doxysection{Minecraftchest1.\+Utils Class Reference}
+\label{class_minecraftchest1_1_1_utils}\index{Minecraftchest1.Utils@{Minecraftchest1.Utils}}
+\doxysubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
-class \hyperlink{class_minecraftchest1_1_1_utils_1_1_input_error_exception}{Input\+Error\+Exception}
+class \mbox{\hyperlink{class_minecraftchest1_1_1_utils_1_1_input_error_exception}{Input\+Error\+Exception}}
 \end{DoxyCompactItemize}
-\subsection*{Static Public Member Functions}
+\doxysubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-static void \hyperlink{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}{Pause} (string Message=\char`\"{}Press any key to continue...\char`\"{}, bool Seperator=false)
+static void \mbox{\hyperlink{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}{Pause}} (string Message=\char`\"{}Press any key to continue...\char`\"{}, bool Seperator=false)
 \item 
-static string \hyperlink{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}{Input} (string prompt)
+static string \mbox{\hyperlink{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}{Input}} (string prompt)
 \item 
-static double \hyperlink{class_minecraftchest1_1_1_utils_a0f88327089e8a17005bc3c7981487c32}{Input\+Double} (string prompt)
+static double \mbox{\hyperlink{class_minecraftchest1_1_1_utils_a0f88327089e8a17005bc3c7981487c32}{Input\+Double}} (string prompt)
+\item 
+static byte \mbox{\hyperlink{class_minecraftchest1_1_1_utils_abd4c72e46dc83dc796229b1bfa187d80}{Input\+Byte}} (string prompt)
 \end{DoxyCompactItemize}
 
 
-\subsection{Member Function Documentation}
+\doxysubsection{Member Function Documentation}
 \mbox{\Hypertarget{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}\label{class_minecraftchest1_1_1_utils_acc8f15ceee7fa0c1c521cdb582bc3910}} 
-\index{Minecraftchest1\+::\+Utils@{Minecraftchest1\+::\+Utils}!Input@{Input}}
-\index{Input@{Input}!Minecraftchest1\+::\+Utils@{Minecraftchest1\+::\+Utils}}
-\subsubsection{\texorpdfstring{Input()}{Input()}}
+\index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!Input@{Input}}
+\index{Input@{Input}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
+\doxysubsubsection{\texorpdfstring{Input()}{Input()}}
 {\footnotesize\ttfamily static string Minecraftchest1.\+Utils.\+Input (\begin{DoxyParamCaption}\item[{string}]{prompt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 Asks for user input. 
@@ -33,10 +35,28 @@ Asks for user input.
 \begin{DoxyReturn}{Returns}
 Returns the input from the user. 
 \end{DoxyReturn}
+\mbox{\Hypertarget{class_minecraftchest1_1_1_utils_abd4c72e46dc83dc796229b1bfa187d80}\label{class_minecraftchest1_1_1_utils_abd4c72e46dc83dc796229b1bfa187d80}} 
+\index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!InputByte@{InputByte}}
+\index{InputByte@{InputByte}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
+\doxysubsubsection{\texorpdfstring{InputByte()}{InputByte()}}
+{\footnotesize\ttfamily static byte Minecraftchest1.\+Utils.\+Input\+Byte (\begin{DoxyParamCaption}\item[{string}]{prompt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Asks for user input. Returns a byte. 
+
+Returns 0 when no user input is provided. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prompt} & The message to show when asking for input. Dispalyed on the same line of the input prompt. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the input from the user. 
+\end{DoxyReturn}
 \mbox{\Hypertarget{class_minecraftchest1_1_1_utils_a0f88327089e8a17005bc3c7981487c32}\label{class_minecraftchest1_1_1_utils_a0f88327089e8a17005bc3c7981487c32}} 
-\index{Minecraftchest1\+::\+Utils@{Minecraftchest1\+::\+Utils}!Input\+Double@{Input\+Double}}
-\index{Input\+Double@{Input\+Double}!Minecraftchest1\+::\+Utils@{Minecraftchest1\+::\+Utils}}
-\subsubsection{\texorpdfstring{Input\+Double()}{InputDouble()}}
+\index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!InputDouble@{InputDouble}}
+\index{InputDouble@{InputDouble}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
+\doxysubsubsection{\texorpdfstring{InputDouble()}{InputDouble()}}
 {\footnotesize\ttfamily static double Minecraftchest1.\+Utils.\+Input\+Double (\begin{DoxyParamCaption}\item[{string}]{prompt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 Asks for user input. Returns a double. 
@@ -52,9 +72,9 @@ Returns 0 when no user input is provided.
 Returns the input from the user. 
 \end{DoxyReturn}
 \mbox{\Hypertarget{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}\label{class_minecraftchest1_1_1_utils_a93d87d31f16115eb3ef2da07ef774530}} 
-\index{Minecraftchest1\+::\+Utils@{Minecraftchest1\+::\+Utils}!Pause@{Pause}}
-\index{Pause@{Pause}!Minecraftchest1\+::\+Utils@{Minecraftchest1\+::\+Utils}}
-\subsubsection{\texorpdfstring{Pause()}{Pause()}}
+\index{Minecraftchest1.Utils@{Minecraftchest1.Utils}!Pause@{Pause}}
+\index{Pause@{Pause}!Minecraftchest1.Utils@{Minecraftchest1.Utils}}
+\doxysubsubsection{\texorpdfstring{Pause()}{Pause()}}
 {\footnotesize\ttfamily static void Minecraftchest1.\+Utils.\+Pause (\begin{DoxyParamCaption}\item[{string}]{Message = {\ttfamily \char`\"{}Press~any~key~to~continue...\char`\"{}},  }\item[{bool}]{Seperator = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 Waits for user. 

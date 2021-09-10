@@ -1,4 +1,4 @@
-.TH "Minecraftchest1.Utils" 3 "Fri Aug 20 2021" "Minecraftchest1" \" -*- nroff -*-
+.TH "Minecraftchest1.Utils" 3 "Fri Sep 10 2021" "Minecraftchest1" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -25,18 +25,37 @@ Minecraftchest1.Utils
 .ti -1c
 .RI "static double \fBInputDouble\fP (string prompt)"
 .br
+.ti -1c
+.RI "static byte \fBInputByte\fP (string prompt)"
+.br
 .in -1c
 .SH "Member Function Documentation"
 .PP 
 .SS "static string Minecraftchest1\&.Utils\&.Input (string prompt)\fC [inline]\fP, \fC [static]\fP"
 Asks for user input\&. 
 .PP
-\fBParameters:\fP
+\fBParameters\fP
 .RS 4
 \fIprompt\fP The message to show when asking for input\&. Dispalyed on the same line of the input prompt\&. 
 .RE
 .PP
-\fBReturns:\fP
+\fBReturns\fP
+.RS 4
+Returns the input from the user\&. 
+.RE
+.PP
+
+.SS "static byte Minecraftchest1\&.Utils\&.InputByte (string prompt)\fC [inline]\fP, \fC [static]\fP"
+Asks for user input\&. Returns a byte\&. 
+.PP
+Returns 0 when no user input is provided\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIprompt\fP The message to show when asking for input\&. Dispalyed on the same line of the input prompt\&. 
+.RE
+.PP
+\fBReturns\fP
 .RS 4
 Returns the input from the user\&. 
 .RE
@@ -47,12 +66,12 @@ Asks for user input\&. Returns a double\&.
 .PP
 Returns 0 when no user input is provided\&. 
 .PP
-\fBParameters:\fP
+\fBParameters\fP
 .RS 4
 \fIprompt\fP The message to show when asking for input\&. Dispalyed on the same line of the input prompt\&. 
 .RE
 .PP
-\fBReturns:\fP
+\fBReturns\fP
 .RS 4
 Returns the input from the user\&. 
 .RE
@@ -61,7 +80,7 @@ Returns the input from the user\&.
 .SS "static void Minecraftchest1\&.Utils\&.Pause (string Message = \fC'Press any key to continue\&.\&.\&.'\fP, bool Seperator = \fCfalse\fP)\fC [inline]\fP, \fC [static]\fP"
 Waits for user\&. 
 .PP
-\fBParameters:\fP
+\fBParameters\fP
 .RS 4
 \fImessage\fP Optional message to print instead of 'Press any key to continue\&.\&.\&.'\&. 
 .br
