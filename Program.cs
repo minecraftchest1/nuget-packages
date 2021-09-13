@@ -36,7 +36,7 @@ namespace groupmeCLI
 					_account();
 					break;
 				case 2:
-					_groups();
+					_groups().Wait();
 					break;
 				case 3:
 					_dm();
@@ -97,9 +97,9 @@ namespace groupmeCLI
 			await _client.GetChatsAsync();
 			await _client.GetContactsAsync();
 
-			foreach (IMessageContainer _messageContainer in _client.Chats())
+			foreach (IMessageContainer _messageContainer in _client.Groups())
 			{
-				Console.WriteLine("Chat name: {0}", _messageContainer.Name);
+				Console.WriteLine("{0} - {1}", _messageContainer.Name, _messageContainer.LatestMessage.Text.ToString());
 			}
 		}
 		static void _dm()
