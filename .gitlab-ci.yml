@@ -1,4 +1,5 @@
-image: microsoft-dotnet-sdk:latest
+image: 
+  name: mcr.microsoft.com/dotnet/sdk
 
 test-build:
   script:
