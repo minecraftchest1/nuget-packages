@@ -1,7 +1,7 @@
 image: 
-  name: mcr.microsoft.com/dotnet/sdk
+  name: mcr.microsoft.com/dotnet/sdk:5.0.401-bullseye-slim-amd64
 
 test-build:
   script:
-    - sudo apt instll doxygen
+    - sudo apt install doxygen
     - make
