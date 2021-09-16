@@ -1,14 +1,6 @@
-image: alpine
+image: microsoft/dotnet-sdk:latest
 
-pages:
-  tags: 
-    - Self-hosted
+test-build:
   script:
-  - apk update && apk add doxygen
-  - doxygen doxygen/Doxyfile
-  - cp doxygen/documentation/html/ public/
-  artifacts:
-    paths:
-    - public/
-  only:
-  - master
+    - sudo apt instll doxygen
+    - make
