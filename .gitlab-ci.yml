@@ -4,3 +4,7 @@ image:
 test-build:
   script:
     - make
+  only:
+    - merge_requests
+    - external_pull_requests
+    - pushes 
