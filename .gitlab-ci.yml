@@ -1,4 +1,4 @@
-image: microsoft/dotnet-sdk:latest
+image: microsoft-dotnet-sdk:latest
 
 test-build:
   script:
