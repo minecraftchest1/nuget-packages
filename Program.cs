@@ -94,14 +94,36 @@ namespace groupmeCLI
 			GroupMeClientApi.GroupMeClient _client = new GroupMeClientApi.GroupMeClient(_token);
 
 			await _client.GetGroupsAsync();
-			await _client.GetChatsAsync();
-			await _client.GetContactsAsync();
+			//await _client.GetChatsAsync();
+			//await _client.GetContactsAsync();
+
+			//create menu.
+			var _menu = new Dictionary<byte, string>();
+			//map menu entry to chatID
+			var _map = new Dictionary<byte, string>();
+			byte _x = 1;
+			string _text;
+
+			var _chats = _client.Groups();
 
 			foreach (IMessageContainer _messageContainer in _client.Groups())
 			{
-				Console.WriteLine("{0} - {1}", _messageContainer.Name, _messageContainer.LatestMessage.Text.ToString());
+				//Console.WriteLine("{0} - {1}", _messageContainer.Name, _messageContainer.LatestMessage.Text.ToString());
+				_text = _messageContainer.Name + " - " + _messageContainer.LatestMessage.Text.ToString();
+				_menu.Add(_x, _text);
+				_map.Add(_x, _messageContainer.Id);
+				_x++;
 			}
+			_menu.Add(0, "Main Menu");
+			byte _response = Utils.Menu(_menu);
+			_map.TryGetValue(_response, out string _id);
+			Console.WriteLine("Group ID: {0}", _id);
+			Console.WriteLine(_client.GetType());
 		}
+		/*statc void _printGroup(string id)
+		{
+			
+		}*/
 		static void _dm()
 		{
 			Console.WriteLine("This is where direct messages will go.");
