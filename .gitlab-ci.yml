@@ -1,14 +1,11 @@
-image: alpine
+image: 
+  name: registry.gitlab.com/minecraftchest1/docker-images
 
-pages:
-  tags: 
-    - Self-hosted
+test-build:
   script:
-  - apk update && apk add doxygen
-  - doxygen doxygen/Doxyfile
-  - cp doxygen/documentation/html/ public/
-  artifacts:
-    paths:
-    - public/
+    - make
   only:
-  - master
+    - merge_requests
+    - external_pull_requests
+    - pushes 
+    - external_push
