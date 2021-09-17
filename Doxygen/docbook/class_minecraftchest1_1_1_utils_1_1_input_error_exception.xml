@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception" xml:lang="en-US">
+<title>Minecraftchest1.Utils.InputErrorException Class Reference</title>
+<indexterm><primary>Minecraftchest1.Utils.InputErrorException</primary></indexterm>
+<para>Inheritance diagram for Minecraftchest1.Utils.InputErrorException:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_minecraftchest1_1_1_utils_1_1_input_error_exception.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a6e4779b6fe0b6101969ff84af4fcdf1a"/><link linkend="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a6e4779b6fe0b6101969ff84af4fcdf1a">InputErrorException</link> ()</para>
+
+<para>Specefies that there was an error processing the input. /summary&gt; </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a1bda68cd00bf63e46e593edaf8a5e57b"/><emphasis role="strong">InputErrorException</emphasis> (string message)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a38a7a2f9f54188ccd25a524886dd77d4"/><emphasis role="strong">InputErrorException</emphasis> (string message, Exception inner)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a9da985457dab9915b3cd79cb13cc6683"/>string <emphasis role="strong">Input</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1aa0a4f5a18c8d9973bbb9fa003278e2a1"/><emphasis role="strong">InputErrorException</emphasis> (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+utils/Exceptions.cs</section>

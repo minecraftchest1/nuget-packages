@@ -1,0 +1,10 @@
+image: 
+  name: registry.gitlab.com/minecraftchest1/docker-images
+
+test-build:
+  script:
+    - make
+  only:
+    - merge_requests
+    - external_pull_requests
+    - push
