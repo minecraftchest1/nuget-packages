@@ -7,4 +7,4 @@ test-build:
   only:
     - merge_requests
     - external_pull_requests
-    - push
+    - pushes 
