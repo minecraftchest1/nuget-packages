@@ -3,6 +3,7 @@ image:
 
 test-build:
   script:
+    - pwd
     - make
   only:
     - merge_requests
