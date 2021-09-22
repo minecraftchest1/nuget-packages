@@ -7,12 +7,56 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline><highlight class="normal">#<sp/>Minecraftchest1-utils</highlight></codeline>
+<codeline><highlight class="normal">#<sp/>NuGet-Packages</highlight></codeline>
 <codeline></codeline>
-<codeline><highlight class="normal">All<sp/>methods<sp/>are<sp/>located<sp/>under<sp/>the<sp/>`Utils`<sp/>class<sp/>in<sp/>the<sp/>`Minecraftchest1`<sp/>namespace.</highlight></codeline>
+<codeline><highlight class="normal">![Nuget](https://img.shields.io/nuget/v/Minecraftchest1-utils)</highlight></codeline>
 <codeline></codeline>
-<codeline><highlight class="normal">Documentation<sp/>is<sp/>automaticly<sp/>generated,and<sp/>can<sp/>be<sp/>found<sp/>at<sp/>https://minecraftchest1.github.io/nuget-packages/class_minecraftchest1_1_1_utils.html</highlight></codeline>
+<codeline><highlight class="normal">![Nuget](https://img.shields.io/nuget/dt/Minecraftchest1-utils)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![GitHub<sp/>Repo<sp/>stars](https://img.shields.io/github/stars/minecraftchest1/nuget-packages)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![Azure<sp/>DevOps<sp/>builds](https://img.shields.io/azure-devops/build/wyattcjackson2006/159577bd-f56f-472e-83f4-a809b466d6d0/1?label=Doxygen%20Build%20Status&amp;logo=Azure%20DevOps)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![Azure<sp/>DevOps<sp/>builds](https://img.shields.io/azure-devops/build/wyattcjackson2006/159577bd-f56f-472e-83f4-a809b466d6d0/2?label=Test%20Build%20Status&amp;logo=Azure%20DevOps)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>small<sp/>collection<sp/>of<sp/>simple<sp/>methods<sp/>that<sp/>I<sp/>have<sp/>created</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Documentation<sp/>at<sp/>https://minecraftchest1.github.io/nuget-packages/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Source<sp/>code<sp/>is<sp/>avaible<sp/>at</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>https://github.com/minecraftchest1/nuget-packages</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>https://gitlab.com/minecraftchest1/nuget-packages</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Building</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Required<sp/>tools</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>.Net<sp/>core<sp/>5.0</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Doxygen</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>steps</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Run<sp/>the<sp/>build.sh<sp/>or<sp/>build.ps1<sp/>script<sp/>in<sp/>the<sp/>root<sp/>of<sp/>the<sp/>repository.<sp/>This<sp/>will<sp/>build<sp/>the<sp/>project<sp/>in<sp/>its<sp/>subdirectory<sp/>and<sp/>place<sp/>it<sp/>in<sp/>its<sp/>bin<sp/>folder.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>automatically<sp/>generated<sp/>documentation<sp/>in<sp/>html<sp/>format<sp/>is<sp/>placed<sp/>in<sp/>the<sp/>html<sp/>folder<sp/>in<sp/>the<sp/>repro<sp/>root.<sp/>Other<sp/>formats<sp/>can<sp/>be<sp/>found<sp/>in<sp/>the<sp/>Doxygen<sp/>subfolder<sp/>in<sp/>the<sp/>repro<sp/>root.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>1.2.3</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Add<sp/>option<sp/>to<sp/>customize<sp/>`pasue()`<sp/>behavior.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Fix<sp/>build.sh<sp/>script.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>1.2.2</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Add<sp/>`ArrayToString`<sp/>function.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>1.2.1<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Change<sp/>to<sp/>using<sp/>Major.Minor.Patch[-Suffix]<sp/>versioning<sp/>system.</highlight></codeline>
     </programlisting>
-    <location file="utils/README.md"/>
+    <location file="README.md"/>
   </compounddef>
 </doxygen>
