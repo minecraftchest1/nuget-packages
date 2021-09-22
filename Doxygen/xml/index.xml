@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception" kind="class"><name>Minecraftchest1::Utils::InputErrorException</name>
+    <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a9da985457dab9915b3cd79cb13cc6683" kind="variable"><name>Input</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a6e4779b6fe0b6101969ff84af4fcdf1a" kind="function"><name>InputErrorException</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a1bda68cd00bf63e46e593edaf8a5e57b" kind="function"><name>InputErrorException</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a38a7a2f9f54188ccd25a524886dd77d4" kind="function"><name>InputErrorException</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1aa0a4f5a18c8d9973bbb9fa003278e2a1" kind="function"><name>InputErrorException</name></member>
+  </compound>
+  <compound refid="class_minecraftchest1_1_1_utils" kind="class"><name>Minecraftchest1::Utils</name>
+    <member refid="class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530" kind="function"><name>Pause</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910" kind="function"><name>Input</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32" kind="function"><name>InputDouble</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1a4ea88face18276bc3c7e70a212f63b4a" kind="function"><name>StringToArray</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" kind="function"><name>ArrayToString</name></member>
+  </compound>
+  <compound refid="namespace_minecraftchest1" kind="namespace"><name>Minecraftchest1</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="_exceptions_8cs" kind="file"><name>Exceptions.cs</name>
+  </compound>
+  <compound refid="minecraftchest1_8cs" kind="file"><name>minecraftchest1.cs</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="dir_cbdb8362360e11eafe2fa3bc74cf0ffd" kind="dir"><name>utils</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

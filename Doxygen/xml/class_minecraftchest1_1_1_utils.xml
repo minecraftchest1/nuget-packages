@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_minecraftchest1_1_1_utils" kind="class" language="C#" prot="public">
+    <compoundname>Minecraftchest1::Utils</compoundname>
+    <innerclass refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception" prot="public">Minecraftchest1::Utils::InputErrorException</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Minecraftchest1.Utils.Pause</definition>
+        <argsstring>(string Message=&quot;Press any key to continue...&quot;, bool Seperator=false)</argsstring>
+        <name>Pause</name>
+        <param>
+          <type>string</type>
+          <declname>Message</declname>
+          <defval>&quot;Press any key to continue...&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>Seperator</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Waits for user. </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional message to print instead of &quot;Press any key to continue...&quot;. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Seperator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wether to print a seperator before pause message. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </inbodydescription>
+        <location file="utils/minecraftchest1.cs" line="8" column="28" bodyfile="utils/minecraftchest1.cs" bodystart="8" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Minecraftchest1.Utils.Input</definition>
+        <argsstring>(string prompt)</argsstring>
+        <name>Input</name>
+        <param>
+          <type>string</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Asks for user input. </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prompt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to show when asking for input. Dispalyed on the same line of the input prompt. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the input from the user. </para>
+</simplesect>
+</para>
+        </inbodydescription>
+        <location file="utils/minecraftchest1.cs" line="33" column="30" bodyfile="utils/minecraftchest1.cs" bodystart="33" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Minecraftchest1.Utils.InputDouble</definition>
+        <argsstring>(string prompt)</argsstring>
+        <name>InputDouble</name>
+        <param>
+          <type>string</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Asks for user input. Returns a double. </para>
+<para>Returns 0 when no user input is provided. </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prompt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to show when asking for input. Dispalyed on the same line of the input prompt. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the input from the user. </para>
+</simplesect>
+</para>
+        </inbodydescription>
+        <location file="utils/minecraftchest1.cs" line="50" column="30" bodyfile="utils/minecraftchest1.cs" bodystart="50" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1a4ea88face18276bc3c7e70a212f63b4a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string [] Minecraftchest1.Utils.StringToArray</definition>
+        <argsstring>(string Input, char[] Seperators)</argsstring>
+        <name>StringToArray</name>
+        <param>
+          <type>string</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>char[]</type>
+          <declname>Seperators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/minecraftchest1.cs" line="102" column="23" bodyfile="utils/minecraftchest1.cs" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Minecraftchest1.Utils.ArrayToString</definition>
+        <argsstring>(string[] Input, char Seperator)</argsstring>
+        <name>ArrayToString</name>
+        <param>
+          <type>string[]</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>Seperator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/minecraftchest1.cs" line="107" column="23" bodyfile="utils/minecraftchest1.cs" bodystart="107" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="utils/Exceptions.cs" line="5" column="12" bodyfile="utils/Exceptions.cs" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" prot="private" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>ArrayToString</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>Input</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>InputDouble</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>Pause</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1a4ea88face18276bc3c7e70a212f63b4a" prot="private" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>StringToArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

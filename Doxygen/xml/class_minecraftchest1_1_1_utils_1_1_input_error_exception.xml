@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_minecraftchest1_1_1_utils_1_1_input_error_exception" kind="class" language="C#" prot="public">
+    <compoundname>Minecraftchest1::Utils::InputErrorException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a9da985457dab9915b3cd79cb13cc6683" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Minecraftchest1.Utils.InputErrorException.Input</definition>
+        <argsstring></argsstring>
+        <name>Input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/Exceptions.cs" line="17" column="27" bodyfile="utils/Exceptions.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a6e4779b6fe0b6101969ff84af4fcdf1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
+        <argsstring>()</argsstring>
+        <name>InputErrorException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/Exceptions.cs" line="10" column="20" bodyfile="utils/Exceptions.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a1bda68cd00bf63e46e593edaf8a5e57b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>InputErrorException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/Exceptions.cs" line="11" column="20" bodyfile="utils/Exceptions.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a38a7a2f9f54188ccd25a524886dd77d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
+        <argsstring>(string message, Exception inner)</argsstring>
+        <name>InputErrorException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>inner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/Exceptions.cs" line="12" column="20" bodyfile="utils/Exceptions.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1aa0a4f5a18c8d9973bbb9fa003278e2a1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
+        <argsstring>(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)</argsstring>
+        <name>InputErrorException</name>
+        <param>
+          <type>System.Runtime.Serialization.SerializationInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>System.Runtime.Serialization.StreamingContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/Exceptions.cs" line="13" column="23" bodyfile="utils/Exceptions.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Minecraftchest1.Utils.InputErrorException</label>
+        <link refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Minecraftchest1.Utils.InputErrorException</label>
+        <link refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="utils/Exceptions.cs" line="8" column="15" bodyfile="utils/Exceptions.cs" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a9da985457dab9915b3cd79cb13cc6683" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils::InputErrorException</scope><name>Input</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a6e4779b6fe0b6101969ff84af4fcdf1a" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils::InputErrorException</scope><name>InputErrorException</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a1bda68cd00bf63e46e593edaf8a5e57b" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils::InputErrorException</scope><name>InputErrorException</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a38a7a2f9f54188ccd25a524886dd77d4" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils::InputErrorException</scope><name>InputErrorException</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1_1_input_error_exception_1aa0a4f5a18c8d9973bbb9fa003278e2a1" prot="protected" virt="non-virtual"><scope>Minecraftchest1::Utils::InputErrorException</scope><name>InputErrorException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

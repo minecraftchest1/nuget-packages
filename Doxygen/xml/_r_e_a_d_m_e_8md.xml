@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Minecraftchest1-utils</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">All<sp/>methods<sp/>are<sp/>located<sp/>under<sp/>the<sp/>`Utils`<sp/>class<sp/>in<sp/>the<sp/>`Minecraftchest1`<sp/>namespace.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Documentation<sp/>is<sp/>automaticly<sp/>generated,and<sp/>can<sp/>be<sp/>found<sp/>at<sp/>https://minecraftchest1.github.io/nuget-packages/class_minecraftchest1_1_1_utils.html</highlight></codeline>
+    </programlisting>
+    <location file="utils/README.md"/>
+  </compounddef>
+</doxygen>

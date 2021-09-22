@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Minecraftchest1-utils</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1md_utils_README"/> All methods are located under the <computeroutput>Utils</computeroutput> class in the <computeroutput><ref refid="namespace_minecraftchest1" kindref="compound">Minecraftchest1</ref></computeroutput> namespace.</para>
+<para>Documentation is automaticly generated,and can be found at <ulink url="https://minecraftchest1.github.io/nuget-packages/class_minecraftchest1_1_1_utils.html">https://minecraftchest1.github.io/nuget-packages/class_minecraftchest1_1_1_utils.html</ulink> </para>
+    </detaileddescription>
+    <location file="utils/README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,80 +1,145 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_minecraftchest1_1_1_utils">
-<title>Minecraftchest1::Utils class Reference</title>
-        <section>
-            <title> Classes </title>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="class_minecraftchest1_1_1_utils_1_1_input_error_exception">Minecraftchest1::Utils::InputErrorException</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-        </section>
-        <section>
-            <title></title>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>static void <link linkend="class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530">Pause</link> (
-string Message, bool Seperator)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>static string <link linkend="class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910">Input</link> (
-string prompt)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>static double <link linkend="class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32">InputDouble</link> (
-string prompt)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-        </section>
-        <section>
-            <title></title>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>static string [] <link linkend="class_minecraftchest1_1_1_utils_1a4ea88face18276bc3c7e70a212f63b4a">StringToArray</link> (
-string Input, char [] Seperators)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>static string <link linkend="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458">ArrayToString</link> (
-string [] Input, char Seperator)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-        </section>
-            <section xml:id="class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530">
-                <title>static void Minecraftchest1.Utils.Pause (string Message=&quot;Press any key to continue...&quot;, bool Seperator=false)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910">
-                <title>static string Minecraftchest1.Utils.Input (string prompt)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32">
-                <title>static double Minecraftchest1.Utils.InputDouble (string prompt)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="class_minecraftchest1_1_1_utils_1a4ea88face18276bc3c7e70a212f63b4a">
-                <title>static string [] Minecraftchest1.Utils.StringToArray (string Input, char[] Seperators)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458">
-                <title>static string Minecraftchest1.Utils.ArrayToString (string[] Input, char Seperator)</title> <emphasis></emphasis>
-                
-            </section>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_minecraftchest1_1_1_utils" xml:lang="en-US">
+<title>Minecraftchest1.Utils Class Reference</title>
+<indexterm><primary>Minecraftchest1.Utils</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_minecraftchest1_1_1_utils_1_1_input_error_exception">InputErrorException</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530">Pause</link> (string Message=&quot;Press any key to continue...&quot;, bool Seperator=false)</para>
+</listitem>
+            <listitem><para>static string <link linkend="_class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910">Input</link> (string prompt)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32">InputDouble</link> (string prompt)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 5 of file Exceptions.cs.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910"/>    <section>
+    <title>Input()</title>
+<indexterm><primary>Input</primary><secondary>Minecraftchest1.Utils</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils</primary><secondary>Input</secondary></indexterm>
+<para><computeroutput>static string Minecraftchest1.Utils.Input (string prompt)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Asks for user input. </para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>prompt</entry>
+                                <entry>
+<para>The message to show when asking for input. Dispalyed on the same line of the input prompt. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Returns the input from the user. </para>
+</formalpara>
+</para>
+<para>
+Definition at line 33 of file minecraftchest1.cs.</para>
+    </section><anchor xml:id="_class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32"/>    <section>
+    <title>InputDouble()</title>
+<indexterm><primary>InputDouble</primary><secondary>Minecraftchest1.Utils</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils</primary><secondary>InputDouble</secondary></indexterm>
+<para><computeroutput>static double Minecraftchest1.Utils.InputDouble (string prompt)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Asks for user input. Returns a double. </para>
+
+<para>Returns 0 when no user input is provided. </para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>prompt</entry>
+                                <entry>
+<para>The message to show when asking for input. Dispalyed on the same line of the input prompt. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Returns the input from the user. </para>
+</formalpara>
+</para>
+<para>
+Definition at line 50 of file minecraftchest1.cs.</para>
+    </section><anchor xml:id="_class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530"/>    <section>
+    <title>Pause()</title>
+<indexterm><primary>Pause</primary><secondary>Minecraftchest1.Utils</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils</primary><secondary>Pause</secondary></indexterm>
+<para><computeroutput>static void Minecraftchest1.Utils.Pause (string Message = <computeroutput>&quot;Press any key to continue...&quot;</computeroutput>
+, bool Seperator = <computeroutput>false</computeroutput>
+)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Waits for user. </para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>message</entry>
+                                <entry>
+<para>Optional message to print instead of &quot;Press any key to continue...&quot;. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Seperator</entry>
+                                <entry>
+<para>Wether to print a seperator before pause message. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 8 of file minecraftchest1.cs.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+utils/Exceptions.csutils/minecraftchest1.cs</section>
 </section>
