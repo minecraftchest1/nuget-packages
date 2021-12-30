@@ -35,9 +35,9 @@ The automatically generated documentation in html format is placed in the html f
 
 ## Changelog
 
-### 1.3.2
+### 1.3.0
 
-* *Lost during git incident*
+* Add `Utils.Seperator()` method.
 
 ### 1.2.3
 
