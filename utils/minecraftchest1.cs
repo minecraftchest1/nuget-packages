@@ -1,9 +1,19 @@
 using System;
+using System.Text;
 
 namespace Minecraftchest1
 {
     public partial class Utils
     {
+
+		static void Seperator(int length = 24, char character = '-')
+        {
+            StringBuilder seperator = new StringBuilder();
+            //string seperator;
+            for (int x = 0; x < length; x++)
+                seperator.Append(character);
+            Console.WriteLine(seperator.ToString());
+        }
 
         public static void Pause(string Message = "Press any key to continue..." ,bool Seperator = false)
         {
