@@ -6,7 +6,7 @@ namespace Minecraftchest1
     public partial class Utils
     {
 
-		static void Seperator(int length = 24, char character = '-')
+		public static void Seperator(int length = 24, char character = '-')
         {
             StringBuilder seperator = new StringBuilder();
             //string seperator;

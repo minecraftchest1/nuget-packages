@@ -35,6 +35,9 @@ The automatically generated documentation in html format is placed in the html f
 
 ## Changelog
 
+## 1.4.1
+* Make 'Utils.Seperator()' public.
+
 ## 1.4.0
 * Bring up to date with nuget.
 
