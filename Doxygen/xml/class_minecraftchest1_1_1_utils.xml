@@ -134,6 +134,50 @@
         </inbodydescription>
         <location file="utils/Utils.cs" line="60" column="30" bodyfile="utils/Utils.cs" bodystart="60" bodyend="111"/>
       </memberdef>
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1a260433df48f4a398cbec1288604380a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] Minecraftchest1.Utils.StringToArray</definition>
+        <argsstring>(string Input, char[] Seperators)</argsstring>
+        <name>StringToArray</name>
+        <qualifiedname>Minecraftchest1.Utils.StringToArray</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>char[]</type>
+          <declname>Seperators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/Utils.cs" line="112" column="30" bodyfile="utils/Utils.cs" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Minecraftchest1.Utils.ArrayToString</definition>
+        <argsstring>(string[] Input, char Seperator)</argsstring>
+        <name>ArrayToString</name>
+        <qualifiedname>Minecraftchest1.Utils.ArrayToString</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>Seperator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="utils/Utils.cs" line="117" column="30" bodyfile="utils/Utils.cs" bodystart="117" bodyend="129"/>
+      </memberdef>
       <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1ade0f4498772a4b07f021f3e8636a46e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>static void Minecraftchest1.Utils.OutputColor</definition>
@@ -177,65 +221,19 @@
         <location file="utils/Utils.cs" line="131" column="28" bodyfile="utils/Utils.cs" bodystart="131" bodyend="146"/>
       </memberdef>
       </sectiondef>
-      <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1a260433df48f4a398cbec1288604380a3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string[]</type>
-        <definition>static string[] Minecraftchest1.Utils.StringToArray</definition>
-        <argsstring>(string Input, char[] Seperators)</argsstring>
-        <name>StringToArray</name>
-        <qualifiedname>Minecraftchest1.Utils.StringToArray</qualifiedname>
-        <param>
-          <type>string</type>
-          <declname>Input</declname>
-        </param>
-        <param>
-          <type>char[]</type>
-          <declname>Seperators</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="utils/Utils.cs" line="112" column="23" bodyfile="utils/Utils.cs" bodystart="112" bodyend="116"/>
-      </memberdef>
-      <memberdef kind="function" id="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>string</type>
-        <definition>static string Minecraftchest1.Utils.ArrayToString</definition>
-        <argsstring>(string[] Input, char Seperator)</argsstring>
-        <name>ArrayToString</name>
-        <qualifiedname>Minecraftchest1.Utils.ArrayToString</qualifiedname>
-        <param>
-          <type>string[]</type>
-          <declname>Input</declname>
-        </param>
-        <param>
-          <type>char</type>
-          <declname>Seperator</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="utils/Utils.cs" line="117" column="23" bodyfile="utils/Utils.cs" bodystart="117" bodyend="129"/>
-      </memberdef>
-      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <location file="utils/Exceptions.cs" line="5" column="12" bodyfile="utils/Exceptions.cs" bodystart="6" bodyend="19"/>
     <listofallmembers>
-      <member refid="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" prot="private" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>ArrayToString</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>ArrayToString</name></member>
       <member refid="class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>Input</name></member>
       <member refid="class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>InputDouble</name></member>
       <member refid="class_minecraftchest1_1_1_utils_1ade0f4498772a4b07f021f3e8636a46e8" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>OutputColor</name></member>
       <member refid="class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>Pause</name></member>
       <member refid="class_minecraftchest1_1_1_utils_1a226346b62c4682c6f0c4f5a803cc1bfe" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>Seperator</name></member>
-      <member refid="class_minecraftchest1_1_1_utils_1a260433df48f4a398cbec1288604380a3" prot="private" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>StringToArray</name></member>
+      <member refid="class_minecraftchest1_1_1_utils_1a260433df48f4a398cbec1288604380a3" prot="public" virt="non-virtual"><scope>Minecraftchest1::Utils</scope><name>StringToArray</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

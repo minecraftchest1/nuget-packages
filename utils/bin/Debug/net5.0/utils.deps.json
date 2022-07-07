@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "utils/1.5.2": {
+      "utils/1.5.3": {
         "runtime": {
           "utils.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "utils/1.5.2": {
+    "utils/1.5.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

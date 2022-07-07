@@ -35,6 +35,9 @@ The automatically generated documentation in html format is placed in the html f
 
 ## Changelog
 
+###
+* Bugfix: Remove "DEBUG: " from `OutputColor()` method.
+
 ### 1.5.2
 * Fix accessibility modifiers.
 

@@ -12,9 +12,9 @@
     <member refid="class_minecraftchest1_1_1_utils_1a93d87d31f16115eb3ef2da07ef774530" kind="function"><name>Pause</name></member>
     <member refid="class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910" kind="function"><name>Input</name></member>
     <member refid="class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32" kind="function"><name>InputDouble</name></member>
-    <member refid="class_minecraftchest1_1_1_utils_1ade0f4498772a4b07f021f3e8636a46e8" kind="function"><name>OutputColor</name></member>
     <member refid="class_minecraftchest1_1_1_utils_1a260433df48f4a398cbec1288604380a3" kind="function"><name>StringToArray</name></member>
     <member refid="class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458" kind="function"><name>ArrayToString</name></member>
+    <member refid="class_minecraftchest1_1_1_utils_1ade0f4498772a4b07f021f3e8636a46e8" kind="function"><name>OutputColor</name></member>
   </compound>
   <compound refid="namespace_minecraftchest1" kind="namespace"><name>Minecraftchest1</name>
   </compound>

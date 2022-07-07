@@ -20,6 +20,10 @@
 </listitem>
             <listitem><para>static double <link linkend="_class_minecraftchest1_1_1_utils_1a0f88327089e8a17005bc3c7981487c32">InputDouble</link> (string prompt)</para>
 </listitem>
+            <listitem><para>static string[] <link linkend="_class_minecraftchest1_1_1_utils_1a260433df48f4a398cbec1288604380a3">StringToArray</link> (string <link linkend="_class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910">Input</link>, char[] Seperators)</para>
+</listitem>
+            <listitem><para>static string <link linkend="_class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458">ArrayToString</link> (string[] <link linkend="_class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910">Input</link>, char Seperator)</para>
+</listitem>
             <listitem><para>static void <link linkend="_class_minecraftchest1_1_1_utils_1ade0f4498772a4b07f021f3e8636a46e8">OutputColor</link> (string? message, ConsoleColor color=ConsoleColor.White)</para>
 </listitem>
         </itemizedlist>
@@ -31,6 +35,13 @@ Definition at line <link linkend="__exceptions_8cs_source_1l00005">5</link> of f
 </section>
 <section>
 <title>Member Function Documentation</title>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1adc4fd4490e43598e7c07908dcc814458"/><section>
+    <title>ArrayToString()</title>
+<indexterm><primary>ArrayToString</primary><secondary>Minecraftchest1.Utils</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils</primary><secondary>ArrayToString</secondary></indexterm>
+<para><computeroutput>static string Minecraftchest1.Utils.ArrayToString (string[] Input, char Seperator)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__utils_8cs_source_1l00117">117</link> of file <link linkend="__utils_8cs_source">Utils.cs</link>.</para>
+</section>
 <anchor xml:id="_class_minecraftchest1_1_1_utils_1acc8f15ceee7fa0c1c521cdb582bc3910"/><section>
     <title>Input()</title>
 <indexterm><primary>Input</primary><secondary>Minecraftchest1.Utils</secondary></indexterm>
@@ -186,6 +197,13 @@ Definition at line <link linkend="__utils_8cs_source_1l00018">18</link> of file 
 , char character = <computeroutput>&apos;-&apos;</computeroutput>
 )<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
 Definition at line <link linkend="__utils_8cs_source_1l00009">9</link> of file <link linkend="__utils_8cs_source">Utils.cs</link>.</para>
+</section>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1a260433df48f4a398cbec1288604380a3"/><section>
+    <title>StringToArray()</title>
+<indexterm><primary>StringToArray</primary><secondary>Minecraftchest1.Utils</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils</primary><secondary>StringToArray</secondary></indexterm>
+<para><computeroutput>static string[] Minecraftchest1.Utils.StringToArray (string Input, char[] Seperators)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__utils_8cs_source_1l00112">112</link> of file <link linkend="__utils_8cs_source">Utils.cs</link>.</para>
 </section>
 <para>
 The documentation for this class was generated from the following files:</para>
