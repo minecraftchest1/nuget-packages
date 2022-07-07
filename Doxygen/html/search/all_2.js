@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pause_5',['Pause',['../class_minecraftchest1_1_1_utils.html#a93d87d31f16115eb3ef2da07ef774530',1,'Minecraftchest1::Utils']]]
+  ['outputcolor_0',['OutputColor',['../class_minecraftchest1_1_1_utils.html#ade0f4498772a4b07f021f3e8636a46e8',1,'Minecraftchest1::Utils']]]
 ];

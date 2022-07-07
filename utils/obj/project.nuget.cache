@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DgqUa5hEmOdfLjZMfTQNVGCDfjxez2VMQb59gNiJlFkR221WFE+oQDxBjsDb3x2pGsBJupIYetqEnAOZIpZL7w==",
+  "dgSpecHash": "WX44G85/Zyj+cEmiIpMLv/+20VCtoMiyh10ZC7SA9tMATtlkZ3u1aKjJ+TH+eraGmgL/EwB5rY8gokiRvAR2kg==",
   "success": true,
   "projectFilePath": "/home/wyatt/src/nuget-packages/utils/utils.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/wyatt/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/wyatt/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

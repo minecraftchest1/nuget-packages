@@ -16,5 +16,10 @@
     <xi:include href="class_minecraftchest1_1_1_utils_1_1_input_error_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="class_minecraftchest1_1_1_utils.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_exceptions_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_utils_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
 <index/>
 </book>

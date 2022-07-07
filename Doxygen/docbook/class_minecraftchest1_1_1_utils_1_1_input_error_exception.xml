@@ -13,30 +13,71 @@
 <simplesect>
     <title>Public Member Functions    </title>
         <itemizedlist>
-            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a1bda68cd00bf63e46e593edaf8a5e57b"/><emphasis role="strong">InputErrorException</emphasis> (string message)</para>
+            <listitem><para><link linkend="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a1bda68cd00bf63e46e593edaf8a5e57b">InputErrorException</link> (string message)</para>
 </listitem>
-            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a38a7a2f9f54188ccd25a524886dd77d4"/><emphasis role="strong">InputErrorException</emphasis> (string message, Exception inner)</para>
+            <listitem><para><link linkend="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a38a7a2f9f54188ccd25a524886dd77d4">InputErrorException</link> (string message, Exception inner)</para>
 </listitem>
         </itemizedlist>
 </simplesect>
 <simplesect>
     <title>Public Attributes    </title>
         <itemizedlist>
-            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a9da985457dab9915b3cd79cb13cc6683"/>string <emphasis role="strong">Input</emphasis></para>
+            <listitem><para>string <link linkend="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a9da985457dab9915b3cd79cb13cc6683">Input</link></para>
 </listitem>
         </itemizedlist>
 </simplesect>
 <simplesect>
     <title>Protected Member Functions    </title>
         <itemizedlist>
-            <listitem><para><anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1aa0a4f5a18c8d9973bbb9fa003278e2a1"/><emphasis role="strong">InputErrorException</emphasis> (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)</para>
+            <listitem><para><link linkend="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1aa0a4f5a18c8d9973bbb9fa003278e2a1">InputErrorException</link> (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)</para>
 </listitem>
         </itemizedlist>
 </simplesect>
 <section>
 <title>Detailed Description</title>
 <para>
-Definition at line 8 of file Exceptions.cs.</para>
+Definition at line <link linkend="__exceptions_8cs_source_1l00008">8</link> of file <link linkend="__exceptions_8cs_source">Exceptions.cs</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a6e4779b6fe0b6101969ff84af4fcdf1a"/><section>
+    <title>InputErrorException()<computeroutput>[1/4]</computeroutput></title>
+<indexterm><primary>InputErrorException</primary><secondary>Minecraftchest1.Utils.InputErrorException</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils.InputErrorException</primary><secondary>InputErrorException</secondary></indexterm>
+<para><computeroutput>Minecraftchest1.Utils.InputErrorException.InputErrorException ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__exceptions_8cs_source_1l00010">10</link> of file <link linkend="__exceptions_8cs_source">Exceptions.cs</link>.</para>
+</section>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a1bda68cd00bf63e46e593edaf8a5e57b"/><section>
+    <title>InputErrorException()<computeroutput>[2/4]</computeroutput></title>
+<indexterm><primary>InputErrorException</primary><secondary>Minecraftchest1.Utils.InputErrorException</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils.InputErrorException</primary><secondary>InputErrorException</secondary></indexterm>
+<para><computeroutput>Minecraftchest1.Utils.InputErrorException.InputErrorException (string message)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__exceptions_8cs_source_1l00011">11</link> of file <link linkend="__exceptions_8cs_source">Exceptions.cs</link>.</para>
+</section>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a38a7a2f9f54188ccd25a524886dd77d4"/><section>
+    <title>InputErrorException()<computeroutput>[3/4]</computeroutput></title>
+<indexterm><primary>InputErrorException</primary><secondary>Minecraftchest1.Utils.InputErrorException</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils.InputErrorException</primary><secondary>InputErrorException</secondary></indexterm>
+<para><computeroutput>Minecraftchest1.Utils.InputErrorException.InputErrorException (string message, Exception inner)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__exceptions_8cs_source_1l00012">12</link> of file <link linkend="__exceptions_8cs_source">Exceptions.cs</link>.</para>
+</section>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1aa0a4f5a18c8d9973bbb9fa003278e2a1"/><section>
+    <title>InputErrorException()<computeroutput>[4/4]</computeroutput></title>
+<indexterm><primary>InputErrorException</primary><secondary>Minecraftchest1.Utils.InputErrorException</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils.InputErrorException</primary><secondary>InputErrorException</secondary></indexterm>
+<para><computeroutput>Minecraftchest1.Utils.InputErrorException.InputErrorException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)<computeroutput>[inline]</computeroutput>, <computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__exceptions_8cs_source_1l00013">13</link> of file <link linkend="__exceptions_8cs_source">Exceptions.cs</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_minecraftchest1_1_1_utils_1_1_input_error_exception_1a9da985457dab9915b3cd79cb13cc6683"/><section>
+    <title>Input</title>
+<indexterm><primary>Input</primary><secondary>Minecraftchest1.Utils.InputErrorException</secondary></indexterm>
+<indexterm><primary>Minecraftchest1.Utils.InputErrorException</primary><secondary>Input</secondary></indexterm>
+<para><computeroutput>string Minecraftchest1.Utils.InputErrorException.Input</computeroutput></para><para>
+Definition at line <link linkend="__exceptions_8cs_source_1l00017">17</link> of file <link linkend="__exceptions_8cs_source">Exceptions.cs</link>.</para>
+</section>
 <para>
 The documentation for this class was generated from the following file:</para>
 utils/Exceptions.cs</section>

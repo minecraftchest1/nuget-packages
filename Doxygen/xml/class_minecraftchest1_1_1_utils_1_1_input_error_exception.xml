@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
   <compounddef id="class_minecraftchest1_1_1_utils_1_1_input_error_exception" kind="class" language="C#" prot="public">
     <compoundname>Minecraftchest1::Utils::InputErrorException</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
@@ -9,6 +9,7 @@
         <definition>string Minecraftchest1.Utils.InputErrorException.Input</definition>
         <argsstring></argsstring>
         <name>Input</name>
+        <qualifiedname>Minecraftchest1.Utils.InputErrorException.Input</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -24,6 +25,7 @@
         <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
         <argsstring>()</argsstring>
         <name>InputErrorException</name>
+        <qualifiedname>Minecraftchest1.Utils.InputErrorException.InputErrorException</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -37,6 +39,7 @@
         <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
         <argsstring>(string message)</argsstring>
         <name>InputErrorException</name>
+        <qualifiedname>Minecraftchest1.Utils.InputErrorException.InputErrorException</qualifiedname>
         <param>
           <type>string</type>
           <declname>message</declname>
@@ -54,6 +57,7 @@
         <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
         <argsstring>(string message, Exception inner)</argsstring>
         <name>InputErrorException</name>
+        <qualifiedname>Minecraftchest1.Utils.InputErrorException.InputErrorException</qualifiedname>
         <param>
           <type>string</type>
           <declname>message</declname>
@@ -77,6 +81,7 @@
         <definition>Minecraftchest1.Utils.InputErrorException.InputErrorException</definition>
         <argsstring>(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)</argsstring>
         <name>InputErrorException</name>
+        <qualifiedname>Minecraftchest1.Utils.InputErrorException.InputErrorException</qualifiedname>
         <param>
           <type>System.Runtime.Serialization.SerializationInfo</type>
           <declname>info</declname>

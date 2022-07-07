@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
   <compounddef id="dir_cbdb8362360e11eafe2fa3bc74cf0ffd" kind="dir">
     <compoundname>utils</compoundname>
     <innerfile refid="_exceptions_8cs">Exceptions.cs</innerfile>
-    <innerfile refid="minecraftchest1_8cs">minecraftchest1.cs</innerfile>
+    <innerfile refid="_utils_8cs">Utils.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

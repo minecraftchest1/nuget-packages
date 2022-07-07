@@ -1,4 +1,4 @@
-.TH "Minecraftchest1.Utils" 3 "Wed Sep 22 2021" "Minecraftchest1" \" -*- nroff -*-
+.TH "Minecraftchest1.Utils" 3 "Thu Jul 7 2022" "Minecraftchest1" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -17,6 +17,9 @@ Minecraftchest1.Utils
 
 .in +1c
 .ti -1c
+.RI "static void \fBSeperator\fP (int length=24, char character='\-')"
+.br
+.ti -1c
 .RI "static void \fBPause\fP (string Message='Press any key to continue\&.\&.\&.', bool Seperator=false)"
 .br
 .ti -1c
@@ -25,10 +28,13 @@ Minecraftchest1.Utils
 .ti -1c
 .RI "static double \fBInputDouble\fP (string prompt)"
 .br
+.ti -1c
+.RI "static void \fBOutputColor\fP (string? message, ConsoleColor color=ConsoleColor\&.White)"
+.br
 .in -1c
 .SH "Detailed Description"
 .PP 
-Definition at line 5 of file Exceptions\&.cs\&.
+Definition at line \fB5\fP of file \fBExceptions\&.cs\fP\&.
 .SH "Member Function Documentation"
 .PP 
 .SS "static string Minecraftchest1\&.Utils\&.Input (string prompt)\fC [inline]\fP, \fC [static]\fP"
@@ -46,7 +52,7 @@ Returns the input from the user\&.
 .PP
 
 .PP
-Definition at line 33 of file minecraftchest1\&.cs\&.
+Definition at line \fB43\fP of file \fBUtils\&.cs\fP\&.
 .SS "static double Minecraftchest1\&.Utils\&.InputDouble (string prompt)\fC [inline]\fP, \fC [static]\fP"
 Asks for user input\&. Returns a double\&. 
 .PP
@@ -64,7 +70,20 @@ Returns the input from the user\&.
 .PP
 
 .PP
-Definition at line 50 of file minecraftchest1\&.cs\&.
+Definition at line \fB60\fP of file \fBUtils\&.cs\fP\&.
+.SS "static void Minecraftchest1\&.Utils\&.OutputColor (string? message, ConsoleColor color = \fCConsoleColor\&.White\fP)\fC [inline]\fP, \fC [static]\fP"
+Outputs text in the specified color\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fImessage\fP String to print to Console\&. 
+.br
+\fIcolor\fP Color to print text in 
+.RE
+.PP
+
+.PP
+Definition at line \fB131\fP of file \fBUtils\&.cs\fP\&.
 .SS "static void Minecraftchest1\&.Utils\&.Pause (string Message = \fC'Press any key to continue\&.\&.\&.'\fP, bool Seperator = \fCfalse\fP)\fC [inline]\fP, \fC [static]\fP"
 Waits for user\&. 
 .PP
@@ -77,7 +96,11 @@ Waits for user\&.
 .PP
 
 .PP
-Definition at line 8 of file minecraftchest1\&.cs\&.
+Definition at line \fB18\fP of file \fBUtils\&.cs\fP\&.
+.SS "static void Minecraftchest1\&.Utils\&.Seperator (int length = \fC24\fP, char character = \fC'\-'\fP)\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line \fB9\fP of file \fBUtils\&.cs\fP\&.
 
 .SH "Author"
 .PP 

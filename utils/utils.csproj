@@ -14,7 +14,7 @@
 	<!--<license type="expression">GPL-3.0-or-later</license>-->
 	<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.4.1</Version>
+    <Version>1.5.1</Version>
 	<PackageId>Minecraftchest1.utils</PackageId>
 	<Title>Minecraftchest1.utils</Title>
 	<PackageProjectUrl>https://gitlab.com/minecraftchest1/nuget-packages</PackageProjectUrl>

@@ -35,10 +35,13 @@ The automatically generated documentation in html format is placed in the html f
 
 ## Changelog
 
+### 1.5.1
+* Add `OutputColor()` method.
+
 ## 1.4.1
 * Make 'Utils.Seperator()' public.
 
-## 1.4.0
+### 1.4.0
 * Bring up to date with nuget.
 
 ### 1.3.0
